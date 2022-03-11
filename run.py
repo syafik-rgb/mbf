@@ -70,7 +70,7 @@ def folder():
 IP = requests.get("https://api.ipify.org/").text
 def banner():
 	print (''' %s 
- © Group%s \n __________       _____.__  \n \____    /____ _/ ____\__| %s> %sZona \n   /     /\\__  \\\   __\|  | %s> %sAkun \n  /     /_ / __ \|  |  |  | %s>%s Facebook [Meta] \n /_______ (____  /__|  |__| %s>%s Indonesia \n         \/    \/ \n %s[%s*%s] By : %sRomi Afrizal \n %s[%s*%s] -------------------------------------- \n [%s*%s] IP : %s%s'''%
+ © private%s \n __________       _____.__  \n \____    /____ _/ ____\__| %s> %sZonk \n   /     /\\__  \\\   __\|  | %s> %sAkun \n  /     /_ / __ \|  |  |  | %s>%s Facebook [Meta] \n /_______ (____  /__|  |__| %s>%s Indonesia \n         \/    \/ \n %s[%s*%s] By : %ssyafik kill \n %s[%s*%s] -------------------------------------- \n [%s*%s] IP : %s%s'''%
  (H,K,H,K,H,K,H,K,H,K,P,K,P,H,P,K,P,K,P,H,IP))
  
 # MASUK TOKEN (TOKEN LISTRIK)
@@ -92,7 +92,7 @@ def masuk():
             open('token.txt', 'w').write(romz);login_bot(romz)
             exec(base64.b64decode('b3Muc3lzdGVtKCd4ZGctb3BlbiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vcm9taS5hZnJpemFsLjEwMicpO21lbnUoKQ=='))
         except (KeyError,IOError):
-        	print("%s [!] Token invalid "%(M));masuk()
+        	print("%s [!] Token hangus anjing "%(M));masuk()
     elif rom in ('2', '02'):
     	print ("\n%s%s Berikut cara nya :"%(H,til));jeda(2)
         print (" - siapkan akun facebook (wajib akun tumbal)");jeda(2)
