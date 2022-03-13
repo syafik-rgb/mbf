@@ -80,7 +80,7 @@ except:
 
 def banner():
 	print (''' %s 
- © private%s \n __________       _____.__  \n \____    /____ _/ ____\__| %s> %sZonk \n   /     /\\__  \\\   __\|  | %s> %sAkun \n  /     /_ / __ \|  |  |  | %s>%s Facebook [Meta] \n /_______ (____  /__|  |__| %s>%s Indonesia \n         \/    \/ \n %s[%s*%s] By : %ssyafik kill \n %s[%s*%s] -------------------------------------- \n [%s*%s] IP : %s%s'''%
+ © private%s \n __________       _____.__  \n \____    /____ _/ ____\__| %s> %sZonk \n   /     /\\__  \\\   __\|  | %s> %sAkun \n  /     /_ / __ \|  |  |  | %s>%s Facebook [Meta] \n /_______ (____  /__|  |__| %s>%s Indonesia \n         \/    \/ \n %s[%s*%s] By : %ssyafik kill \n %s[%s*%s] -------------------------------------- \n [%s*%s] ip : %s%s'''%
  (H,K,H,K,H,K,H,K,H,K,P,K,P,H,P,K,P,K,P,H,IP))
  
 # MASUK TOKEN (TOKEN LISTRIK)
