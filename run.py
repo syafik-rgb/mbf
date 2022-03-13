@@ -67,7 +67,17 @@ def folder():
 		pass
 
 # LOGO (LO GOBLOK)
-IP = requests.get("https://api.ipify.org/").text
+host="https://mbasic.facebook.com"
+ips=None
+try:
+        ipx=requests.get("http://ip-api.com/json/").json()["query"]
+        ips=requests.get("http://ip-api.com/json/"+ipx,headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()["country"].lower()
+        ipp = requests.get("https://api.ipify.org").text
+        country=requests.get("http://ip-api.com/json/").json()["country"]
+except:
+        ips=None
+        ipx=("NONE")
+
 def banner():
 	print (''' %s 
  © private%s \n __________       _____.__  \n \____    /____ _/ ____\__| %s> %sZonk \n   /     /\\__  \\\   __\|  | %s> %sAkun \n  /     /_ / __ \|  |  |  | %s>%s Facebook [Meta] \n /_______ (____  /__|  |__| %s>%s Indonesia \n         \/    \/ \n %s[%s*%s] By : %ssyafik kill \n %s[%s*%s] -------------------------------------- \n [%s*%s] IP : %s%s'''%
